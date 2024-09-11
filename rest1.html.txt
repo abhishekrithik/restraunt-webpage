@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="2.css">
+    <style>
+         form {
+			
+			max-width: 500px;
+			margin: 10px auto;
+			float: center; 
+			box-shadow: 2px 5px 10px rgba(27, 27, 27, 0.5);
+		}
+        .wd{
+            text-align: justify;
+            color:rgb(0, 0, 0);
+            font-size: 15px;
+        }
+        .button {
+                    padding: 5px;
+                    position: center;
+                    font-size: 20px;
+                    text-align: center;
+                    cursor: pointer;
+                    outline: none;
+                    color: #fff;
+                    background-color: #04AA6D;
+                    
+                    border-radius: 10px;
+                    box-shadow: 0 9px #999;
+                    }
+
+                .button:hover {background-color: darkgreen}
+
+                .button:active {
+                    background-color: #3e8e41;
+                    box-shadow: 0 5px rgb(0, 0, 0);
+                    transform: translateY(4px);
+                }
+    </style>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#speciality">speciality</a>
+        <a href="#popular">popular</a>
+        <a href="#gallery">gallery</a>
+        
+        
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Food made with love</h3>
+        <p>Making you drool with our Carbs </p>
+        
+    </div>
+
+    <div class="image">
+        <img src="https://25.media.tumblr.com/cb0f1b3a3cd0b9f982fb310b6f9c2f24/tumblr_mial93jWVD1qbe0gto1_500.gif" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- speciality section starts  -->
+
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> our <span>speciality</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="simg-1.jpg" alt="">
+            <div class="content">
+                <img src="s1.png" alt="">
+                <h3> Burger</h3>
+                <p>Let the burger party begin with the burger made , exclusively to lit up your MOOD for ToDay</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="simg-2.jpg" alt="">
+            <div class="content">
+                <img src="s2.png" alt="">
+                <h3>Pizza</h3>
+                <p>You can't make everyone happy ,  unttil you are a pizza- Now open your HAPPINESS</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="simg-2.jpg" alt="">
+            <div class="content">
+                <img src="s4.png" alt="">
+                <h3>Ice-cream</h3>
+                <p>Every spoonful bringing you closer to heaven CHILL OUT & get surprised in every lick</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="simg-4.jpg" alt="">
+            <div class="content">
+                <img src="s4.png" alt="">
+                <h3>Cold drinks</h3>
+                <p>It may be SUMMER outside but you've got WINTER in your hands , CHEERS MATE!</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="g-8.jpg" alt="">
+            <div class="content">
+                <img src="g-8.jpg" alt="">
+                <h3> Sweets</h3>
+                <p>There's a yummy-looking dessert sitting right in front of you; now what? You know what to be done</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="simg-6.jpg" alt="">
+            <div class="content">
+                <img src="s6.png" alt="">
+                <h3>Breakfast</h3>
+                <p>Your important meal to kick-start your day , TUMMY FILLED</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- speciality section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <h1 class="heading"> most <span>popular</span> foods </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> Rs.120</span>
+            <img src="p1.jpg" alt="">
+            <h3>tasty burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+        </div>
+        <div class="box">
+            <span class="price">Rs.55 </span>
+            <img src="p2.jpg" alt="">
+            <h3>tasty cakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+        </div>
+        <div class="box">
+            <span class="price">Rs.70 </span>
+            <img src="p3.jpg" alt="">
+            <h3>tasty sweets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <span class="price"> Rs.60 </span>
+            <img src="p4.jpg" alt="">
+            <h3>tasty cupcakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+        </div>
+        <div class="box">
+            <span class="price">Rs.80 </span>
+            <img src="p5.jpg" alt="">
+            <h3>cold drinks</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <span class="price">Rs.100</span>
+            <img src="p6.jpg" alt="">
+            <h3>cold ice-cream</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- steps section starts  -->
+
+<div class="step-container">
+
+    <h1 class="heading">how it <span>works</span></h1>
+
+    <section class="steps">
+
+        <div class="box">
+            <img src="step1.jpg" alt="">
+            <h3>choose your favorite food</h3>
+        </div>
+        <div class="box">
+            <img src="step4.jpg" alt="">
+            <h3> enjoy your food</h3>
+        </div>
+        
+        <div class="box">
+            <img src="step3.jpg" alt="">
+            <h3>easy payments methods</h3>
+        </div>
+        
+        
+    
+    </section>
+
+</div>
+
+<!-- steps section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> our food <span> gallery </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="g-1.jpg" alt="">
+            <div class="content">
+                <h3>BOSSY Burger</h3>
+                <p>A sandwich consisting of one or more cooked patties, placed inside a sliced bread roll or bun</p>
+                
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-2.jpg" alt="">
+            <div class="content">
+                <h3>SIZZLIN Sandwich</h3>
+                <p> A food typically consisting of vegetables, sliced cheese  placed on slices of bread,  serves as a container </p>
+                
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-3.jpg" alt="">
+            <div class="content">
+                <h3>SOOTHIN' Shawarma</h3>
+                <p>consisting of meat cut into thin slices, stacked in a cone-like shape, and roasted on a slowly-turning vertical rotisserie </p>
+                
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-4.jpg" alt="">
+            <div class="content">
+                <h3>CUTIE Cupcakes</h3>
+                <p>Small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup</p>
+                
+            </div>
+        </div>
+        <div class="box">
+            <img src="g51.jpg" alt="">
+            <div class="content">
+                <h3>PUNCHYY Pasta</h3>
+                <p> Made from an unleavened dough of wheat flour and formed into  other shapes, then cooked</p>
+                
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-6.jpg" alt="">
+            <div class="content">
+                <h3>BUGGY Bonda</h3>
+                <p>Deep fried in oil with various spices to drool with the mix of the main ingredient that you choose</p>
+               
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-7.jpg" alt="">
+            <div class="content">
+                <h3>EGOLESS Eggs</h3>
+                <p>Dish made from beaten eggs, fried with butter or oil in a frying pan</p>
+             
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-8.jpg" alt="">
+            <div class="content">
+                <h3>CLUMSY Chocolate</h3>
+                <p>A confection containing chocolate, which may also contain layerings.</p>
+            </div>
+                
+        </div>
+        <div class="box">
+            <img src="g-9.jpg" alt="">
+            <div class="content">
+                <h3>PRECISELY Pie</h3>
+                <p>A baked dish made of a pastry dough casing that contains a filling of various sweet or savoury ingredients.</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+            
+            <!-- scroll top button  -->
+            <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+            
+            <!-- loader  -->
+            <div class="loader-container">
+                <img src="loader.gif" alt="">
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- custom js file link  -->
+            <script src="100.js"></script>
+            
+            
+            </body>
+            </html>
